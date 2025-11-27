@@ -1,0 +1,184 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+.secion-uno{
+    background-image: url(../assets/images/banner-bk.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 850px;
+}
+
+
+nav {  
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#506b7f00;
+}
+
+nav .pestañas ul{
+    list-style: none;
+    display: flex;
+    font-size: 25px;
+}
+
+li{
+    color: white;
+    font-size: 15px;
+    margin-right: 60px;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    padding: 5px 10%;
+}
+
+h1{
+    color: white;
+    font-size: 80px;
+    margin-bottom: 20px;
+    font-family: "Nunito Sans", sans-serif;
+    padding: 30px 10%;
+}
+
+.texto-encabezado p{
+    padding: 5px 10%;
+    font-size: 20px;
+    color: white;
+    max-width: 850px;
+    margin-bottom: 30px; 
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.botoncito{
+    padding: 30px 10%;}
+
+
+.boton-redondo{
+    background: #00ffb3;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+.triangulos{
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+.triangulos h2{
+    color: black;
+    text-align: center;
+    padding: 100px;
+    font-size: 30px;
+}
+
+.tarjetas{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 200PX;
+}
+.tarjeta1, .tarjeta2, .tarjeta3{
+    width: 450px;
+    text-align: center;
+}
+.tarjeta1 img, .tarjeta2 img, .tarjeta3 img{
+    width: 250px;
+    height: auto;
+}
+
+
+.boton-redondo-n{
+    background: #091427;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+.triangulos2{
+
+}
+
+.titulo-trian2{
+    font-size: 20px;
+    margin-bottom: 20px;
+    max-width: 1200px;
+    padding: 30px 10%;
+}
+.titulo-trian2 h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.botoncito-trian2{
+    padding: 80px 5px;
+}
+
+.trian-part1-img{
+    width: 600px;
+    height: auto;
+}
+
+
+
+
+.titulo-trian2{
+    font-size: 20px;
+    margin-bottom: 20px;
+    max-width: 1200px;
+    padding: 30px 10%;
+}
+.titulo-trian1 h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.botoncito-trian2{
+    padding: 80px 5px;
+}
+
+.trian-part1-img{
+    width: 600px;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
