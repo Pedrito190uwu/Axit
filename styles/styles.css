@@ -14,7 +14,6 @@
 
 
 nav {  
-    margin-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,6 +24,9 @@ nav .pestañas ul{
     list-style: none;
     display: flex;
     font-size: 25px;
+}
+.pestañas{
+    margin-right: 30px;
 }
 
 li{
@@ -61,7 +63,7 @@ h1{
 
 
 .boton-redondo{
-    background: #00ffb3;
+    background: #42f8bb;
     padding: 10px 20px;
     border-radius: 25px;
     color: rgb(0, 0, 0);
@@ -79,106 +81,191 @@ h1{
     font-size: 30px;
 }
 
-.tarjetas{
+
+
+
+.terceraseccion {
+    position: relative;
+    padding: 0 0 50px 0;
+     display: flex;
+    flex-direction: column;
+    gap: 80px; 
+    position: relative;
+
+}
+
+.terceraseccion::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80%; 
+    background: #42f8bb; 
+    z-index: -1; 
+    clip-path: polygon(0 40%, 100% 10%, 100% 100%, 0% 100%);
+
+}
+
+
+.tercera {
+    padding: 200px 0px 200px 250px;
+}
+
+.tercerotexto {
+    display: flex;
+    flex-direction: column;
+}
+
+.tercerotexto h2 {
+    font-size: 60px;
+}
+
+.tercerotexto p {
+    font-size: 15px;
+}
+
+.botonterceraseccion {
+
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    background-color: #182c76;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    width: 15%;
+    text-align: center;
+    margin: 30px 0 0 0;
+}
+
+
+
+.terceraimagen {
+    position: absolute;
+    top: 150px;
+    margin: 0 0 0 800px;
+}
+
+.terceracuarta {
+
     display: flex;
     justify-content: center;
-    gap: 30px;
-    margin-bottom: 200PX;
+    align-items: center;
 }
-.tarjeta1, .tarjeta2, .tarjeta3{
-    width: 450px;
+
+.terceracuartatexto h2 {
+    font-size: 60px;
+    margin: 0 0 20px 0;
+}
+
+.terceracuartatexto p {
+    font-size: 15px;
+    margin: 0 0 50px 0;
+}
+
+
+
+
+
+
+
+.carts-precio {
+    background: #f5f5f5;
+    padding: 100px 0;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 30px;
+}
+
+.carts-preccio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cart1 {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 0px 5% 30px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #182c76;
+
+}
+
+li{
+    list-style: none;
+    margin: 10px 0;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+
+.cart3 {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 0px 5% 30px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #182c76;
+
+}
+
+
+.cart2 {
+    background: #182c76;
+    border-radius: 15px;
+    padding: 0px 5% 30px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+
+}
+
+
+.azul{
+    color: #182c76;
     text-align: center;
 }
-.tarjeta1 img, .tarjeta2 img, .tarjeta3 img{
-    width: 250px;
-    height: auto;
+
+
+.precio-blanco{
+    font-size: 50px;
+    margin: 20px 0;
+    color: #ffffff;
 }
 
 
-.boton-redondo-n{
-    background: #091427;
+.precio-azul{
+    font-size: 50px;
+    color: #182c76;
+}
+
+
+.boton-redondo-precio-v{
+    background: #42f8bb;
     padding: 10px 20px;
     border-radius: 25px;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-weight: bold;
 }
-.triangulos2{
 
+
+.boton-redondo-precio-b{
+    background: #ffffff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: #182c76 2px solid;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
 }
 
-.titulo-trian2{
-    font-size: 20px;
-    margin-bottom: 20px;
-    max-width: 1200px;
-    padding: 30px 10%;
+.botoncito-precio1{
+    padding-top: 200px;
 }
-.titulo-trian2 h2{
-    font-size: 40px;
-    margin-bottom: 20px;
-}
-
-.botoncito-trian2{
-    padding: 80px 5px;
-}
-
-.trian-part1-img{
-    width: 600px;
-    height: auto;
-}
-
-
-
-
-.titulo-trian2{
-    font-size: 20px;
-    margin-bottom: 20px;
-    max-width: 1200px;
-    padding: 30px 10%;
-}
-.titulo-trian1 h2{
-    font-size: 40px;
-    margin-bottom: 20px;
-}
-
-.botoncito-trian2{
-    padding: 80px 5px;
-}
-
-.trian-part1-img{
-    width: 600px;
-    height: auto;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
