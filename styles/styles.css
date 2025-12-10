@@ -171,60 +171,87 @@ h1{
 
 
 .carts-precio {
-    background: #f5f5f5;
-    padding: 100px 0;
+    padding: 80px 0;
+    text-align: center;
 }
 
 .titulo{
     text-align: center;
     font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.card-titulo{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+
+}
+
+.signo{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.num{
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 20px;
+    font-weight: 900;
+    font-family: "Lato", sans-serif;
+}
+
+.peque{
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.precio-azul{
+    text-align: center;
+    font-size: 5px;
+    padding-bottom: 20px;
 }
 
 .carts-preccio{
     display: flex;
-    justify-content: center;
-    align-items: center;
     justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 50px;
 }
 
 .cart1 {
     background: #ffffff;
-    border-radius: 15px;
-    padding: 0px 5% 30px;
+    padding: 40px 2% 80px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     color: #182c76;
-
 }
 
-li{
-    list-style: none;
-    margin: 10px 0;
-    font-size: 18px;
-    padding-bottom: 20px;
+.cart2 {
+    background: #182c76;
+    padding: 40px 2% 80px;
+    text-align: center;
+    color: #ffffff;
 }
 
 
 .cart3 {
     background: #ffffff;
-    border-radius: 15px;
-    padding: 0px 5% 30px;
+    padding: 40px 2% 80px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     color: #182c76;
+}
 
+li{
+    list-style: none;
+    font-size: 17px;
+    padding-bottom: 20px;
+    padding-left: 40px;
 }
 
 
-.cart2 {
-    background: #182c76;
-    border-radius: 15px;
-    padding: 0px 5% 30px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    color: #ffffff;
-
-}
 
 
 .azul{
@@ -248,24 +275,47 @@ li{
 
 .boton-redondo-precio-v{
     background: #42f8bb;
-    padding: 10px 20px;
+    padding: 5px 20px;
     border-radius: 25px;
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-weight: bold;
+    text-align: center;
+    font-size: 19px;
 }
 
 
 .boton-redondo-precio-b{
     background: #ffffff;
-    padding: 10px 20px;
+    padding: 5px 20px;
     border-radius: 25px;
     border: #182c76 2px solid;
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-weight: bold;
+    text-align: center;
+    font-size: 19px;
 }
 
-.botoncito-precio1{
-    padding-top: 200px;
+
+
+
+.barras{
+    background-color: rgb(221, 225, 228);
+    margin: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.contacto{
+    background-image: url(../assets/images/contacto-bk.jpg);
+}
+.contacto h2{
+    color: white;
+    text-align: center;
+    padding: 100px;
+    font-size: 30px;
 }
