@@ -77,7 +77,7 @@ h1{
 .triangulos h2{
     color: black;
     text-align: center;
-    padding: 100px;
+    padding: 10px;
     font-size: 30px;
 }
 
@@ -109,7 +109,7 @@ h1{
 
 
 .tercera {
-    padding: 200px 0px 200px 250px;
+    padding: 200px 0px 200px 150px;
 }
 
 .tercerotexto {
@@ -310,12 +310,428 @@ li{
 
 }
 
-.contacto{
-    background-image: url(../assets/images/contacto-bk.jpg);
-}
 .contacto h2{
     color: white;
     text-align: center;
-    padding: 100px;
+    padding-top: 100px;
     font-size: 30px;
+}
+
+.contacto {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 10% 100px 10%;
+    background: #0f1b37; 
+    color: white;
+}
+
+.contactotexto {
+    width: 40%;
+    padding-Right: 5%;
+}
+
+.contactotexto h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.contactotexto p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.formulariocontacto {
+    width: 55%;
+    margin-top: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.fila-form {
+    display: flex;
+    gap: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    background: transparent;
+    border: 2px solid #2ef7c4;
+    border-radius: 6px;
+    color: white;
+    outline: none;
+    font-size: 16px;
+}
+
+textarea {
+    margin-top: 20px;
+    height: 120px;
+    resize: none;
+}
+
+.botoncontacto {
+    margin-top: 25px;
+    padding: 15px;
+    background: #2ef7c4;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.botoncontacto:hover {
+    opacity: 0.85;
+}
+
+
+footer {
+    background: #0c162e;
+    padding: 0px 10%;
+    color: white;
+}
+
+.texfoter{
+    padding-bottom: 50px;
+}
+
+.contacto{
+    background-image: url(/assets/images/contact-bk.jpg);
+}
+
+.footercontenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.footerlinks img {
+    width: 180px;
+}
+
+@media (max-width: 1280px) {
+    .carts-preccio {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .terceraseccion {
+        padding: 0 20px 50px 20px;
+    }
+
+    .cuartaimagen {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tercera {
+        padding: 200px 200px 20px;
+                flex-direction: column;
+
+    }
+
+    .terceraimagen {
+        position: static;
+        margin: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .contacto {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contactotexto{
+        width: 100%;
+        padding-top: 0;
+    }
+    
+}
+
+    .formulariocontacto {
+        width: 100%;
+        padding-top: 0;
+    }
+    
+
+@media (max-width: 921px) {
+
+    nav .pestañas ul {
+        flex-direction: column;
+        gap: 15px;
+        margin-right: 0;
+        padding: 100px 0;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+    .texto-encabezado p {
+        font-size: 18px;
+    }
+
+    .tercera {
+        padding: 150px 20px 20px;
+    }
+    .tercerotexto h2 {
+        font-size: 40px;
+    }
+
+    .terceracuartatexto h2 {
+        font-size: 40px;
+    }
+
+}
+
+@media (max-width: 481px) {
+
+    .secion-uno{
+        font-size: 100%;
+        height: auto;
+    }
+    .texto-encabezado p{
+        font-size: 15px;
+        max-width: 90%;
+        margin-bottom: 30px;
+    }
+    .texto-encabezado h1{
+        font-size: 40px;
+    }
+
+    nav .pestañas ul {
+        font-size: 20px;
+        padding: 50px 0;
+    }
+
+    .logo{
+        width: 90px;
+    }
+    .terceraseccion{
+        font-size: 100px;
+        max-width: 90%;
+    }
+    .terceraseccion img{
+        width: 100%;
+        height: auto;        
+    }
+
+    .terceraseccion{
+        padding: 0 10px 50px;
+    }
+
+    .terceraseccion img{
+        width: 100%;
+        height: auto;
+        padding: 0 10px;
+    }
+
+    .terceracuarta{
+        font-size: 100px;
+        max-width: 90%;
+    }
+
+    .botonterceraseccion {
+        width: 50%;
+    }
+
+    .botonterceraseccion{
+        width: 50%;
+    }
+
+    .terceracuartatexto {
+        font-size: 15px;
+    }
+
+    .boton-redondo-precio-b {
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+
+   .tercera {
+        padding: 100px 10px 50px;
+    }
+
+    .terceracuarta{
+        flex-direction: column;
+    }
+
+    .tercerotexto h2 {
+        font-size: 30px;
+    }
+
+    .carts-precio h2{
+        font-size: 30px;
+        text-align: center;
+    }
+
+      .boton-redondo-precio-v {
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+
+    .tercera img{
+        width: 100%;
+        padding: 100px 10px 10px;
+    }
+
+    .barras{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 90px;
+        padding: 50px 0;
+    }
+
+    .barras img{
+        width: 180px;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .contacto{
+        padding: 20px 5% 100px 5%;
+
+    }
+
+    .formulariocontacto{
+        margin-top: 5px;
+        width: 80%;
+    }
+
+    .footercontenido{
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    .secion-uno{
+        font-size: 50%;
+        height: auto;
+    }
+    .texto-encabezado p{
+        font-size: 15px;
+        max-width: 200px;
+        margin-bottom: 30px;
+    }
+    .texto-encabezado h1{
+        font-size: 40px;
+    }
+
+    nav .pestañas ul {
+        font-size: 15px;
+        padding: 50px 0;
+    }
+
+    .logo{
+        width: 90px;
+    }
+    .terceraseccion{
+        font-size: 100px;
+        max-width: 90%;
+    }
+    .terceraseccion img{
+        width: 100%;
+        height: auto;        
+    }
+
+    .terceraseccion{
+        padding: 0 10px 50px;
+    }
+
+    .terceracuarta{
+        font-size: 100px;
+        max-width: 90%;
+    }
+
+    .botonterceraseccion {
+        width: 50%;
+    }
+
+    .botonterceraseccion{
+        width: 50%;
+    }
+
+    .terceracuartatexto {
+        font-size: 15px;
+    }
+
+    .boton-redondo-precio-b {
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+
+   .tercera {
+        padding: 100px 10px 50px;
+    }
+
+    .terceracuarta{
+        flex-direction: column;
+    }
+
+    .tercerotexto h2 {
+        font-size: 30px;
+    }
+
+    .botonterceraseccion{
+        width: 50%;
+        font-size: 16px;
+    }
+    .carts-precio h2{
+        font-size: 30px;
+        text-align: center;
+    }
+
+      .boton-redondo-precio-v {
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+
+    .tercera img{
+        width: 100%;
+        padding: 100px 10px 10px;
+    }
+
+    .barras{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 90px;
+        padding: 50px 0;
+    }
+
+    .barras img{
+        width: 180px;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .contacto{
+        padding: 20px 5% 100px 5%;
+
+    }
+
+    .formulariocontacto{
+        margin-top: 5px;
+        width: 80%;
+    }
+
+    .footercontenido{
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+    .footerlinks img{
+        width: 100px;
+    }
+
 }
